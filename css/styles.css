@@ -1,8 +1,8 @@
 /* Variables */
 
 :root {
---main-font: 'Roboto', sans-serif;
---secondary-font: 'Raleway', sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 
   --primary-brand-color: #4d5ae5;
   --pressed-state-color: #404bbf;
@@ -16,9 +16,9 @@
 
   --hero-btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   --team-card-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
+  --bg-gradient: rgba(46, 47, 66, 0.7);
 }
 
 /* Styles reset */
@@ -110,7 +110,7 @@ body {
 .project-foto {
   display: block;
   max-width: 100%;
-  height: auto
+  height: auto;
 }
 
 /* Header */
@@ -167,6 +167,14 @@ body {
 
 .hero {
   background-color: var(--secondary-color);
+}
+.hero-bg {
+  max-width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+
+  background-image: linear-gradient(var(--bg-gradient), var(--bg-gradient)),
+    url('../images/hero/people-in-office.jpg');
 }
 .hero-title {
   text-align: center;
