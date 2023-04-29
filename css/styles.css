@@ -80,7 +80,12 @@ ul {
   text-transform: capitalize;
   color: var(--secondary-color);
 }
+.social-title-footer {
+  margin-bottom: 16px;
 
+  font-weight: 500;
+  color: var(--third-color);
+}
 /* Body */
 
 body {
@@ -343,6 +348,10 @@ body {
   background-color: var(--secondary-color);
   color: var(--light-color);
 }
+.footer-position {
+  display: flex;
+  gap: 120px;
+}
 .logo-part-footer {
   color: var(--light-color);
 }
@@ -352,6 +361,33 @@ body {
 }
 .footer-text {
   max-width: 264px;
+}
+.social-list-footer {
+  display: flex;
+  gap: 16px;
+}
+.social-item-footer {
+  width: 40px;
+  height: 40px;
+}
+.social-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+  background-color: var(--primary-brand-color);
+  color: var(--light-color);
+  border-radius: 50%;
+}
+.social-link-footer:hover,
+.social-link-footer:focus {
+  background-color: var(--success-color);
+}
+.social-icon-footer {
+  fill: currentColor;
+  object-fit: cover;
 }
 
 /* --------------------------------
@@ -416,7 +452,7 @@ body {
 .project-title {
   margin-bottom: 8px;
 }
-.project-discr {
+.project-descr {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
