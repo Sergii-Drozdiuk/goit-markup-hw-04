@@ -80,12 +80,7 @@ ul {
   text-transform: capitalize;
   color: var(--secondary-color);
 }
-.social-title-footer {
-  margin-bottom: 16px;
 
-  font-weight: 500;
-  color: var(--third-color);
-}
 /* Body */
 
 body {
@@ -115,6 +110,8 @@ body {
 .customers-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
+  align-items: center;
 }
 .contacts,
 .nav-list {
@@ -279,7 +276,7 @@ body {
   background-color: var(--third-color);
 }
 .team-container {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
   border-radius: 0px 0px 4px 4px;
 }
@@ -313,6 +310,9 @@ body {
 
 /* Customers */
 
+.customers-title {
+  line-height: 1.1;
+}
 .customers-item {
   width: calc((100%-24px * 5) / 6);
   height: 88px;
@@ -350,7 +350,7 @@ body {
 }
 .footer-position {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
 }
 .logo-part-footer {
   color: var(--light-color);
@@ -361,6 +361,19 @@ body {
 }
 .footer-text {
   max-width: 264px;
+}
+.footer-thumb-position {
+  margin-right: 120px;
+}
+.social-text-footer {
+  margin-bottom: 16px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--third-color);
 }
 .social-list-footer {
   display: flex;
